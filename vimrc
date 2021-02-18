@@ -262,7 +262,8 @@ imap <silent><C-A><C-V> <ESC><C-A><C-V>
 map ,,	:FufCoverageFile<CR>
 let g:fuf_coveragefile_globPatterns = ['**/*.h', '**/*.c', '**/*.cpp', '**/*.cc', '**/*.mm', '**/*.m', '**/*.xml', '**/*.py', '**/*.proto']
 
-
+set laststatus=2
+set statusline=%F%m%r%h%w\[cpp=%l,%v][%p%%]
 
 "==============================================================
 "             cscope ctag 相关
